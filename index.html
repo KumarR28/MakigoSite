@@ -1,0 +1,462 @@
+<!-- 
+... .. .............................................................................................
+.   .. . ... ..  ............................  .. ..................................................
+. ....MMM..      ...........................MMMMMMM MMM ............................................
+..  ..MMM .. ..  .........................,+MMMMMMMMMMM ............................................
+.   MMMMMMMMNMMMMM.MM MIZI MMMN....=MMMMD.M MM ....?MMM.MMMMM..D:?O.+MM.MO=OM: MMI+M$ MMMMM.........
+. ..MMMMMMMMMMMMM.. MMMMMMMMMMMM  MMM..MMNMM+MD.  ..MNMMM  .MMMMMMMMM,M~MMMMM. MMMMMMMM:  MM+.......
+... ..MMM .  .MMM...MM MMM. . MM~MMMMMMMMM MMMMMMMMM8?MMMMMMMMM.IMMM .,+..MMM...MMI.MMMMMMMMM,......
+ ..   MMM . ,..MMM MMM MMM....MM?MMM,..... . MMMMMMMMMMMZ.     .IMM,......MMM .MMM .MMM ..... ......
+  . ..MMM .MMM. MMNMM .MMMM..MMM+~MMM..OM MMM ....:MMMM=M . MMM NMM=. .....MMMMMM...MMM8. MMM.......
+. ....MMMN:MMM..:MMM...MMM.MMMM  ..MMMMMM:MMM......MMMMOMMMMMM=MMMMMMM .... MMMM. ... MMMMMM  ......
+. . ..~,MMM MM:.MMM . .MMM ...............MMMMM  ,MMMM................................... ..........
+. .  . .    MMMMMM ..NMMMMMM= ....... ...NMM7MMMMMMMMD .............................................
+ .. .. .... ...  .........................  ....ZD=. ...............................................
+... .  .          ........................................................ .........................
+.....  .  .....  ...................................................................................
+.    . .  .      ...................................................................................
+Call TypeServe - We are always looking for coders and designers! 614-426-8973
+ -->
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<title>MakiGo! - The Best Restaurant</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="icon" href="images/icon.ico">
+<link rel="shortcut icon" href="images/icon.ico" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/jqueryslidemenu.css" type="text/css" media="screen" />
+
+<!-- supersized -->
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/supersized.shutter.css" type="text/css" media="screen" />
+<!-- supersized -->
+
+<link rel="stylesheet" href="css/carouFredSel.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/quicksand.css" />
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+
+<!-- supersized -->
+<script type="text/javascript" src="js/supersized.3.2.7.js"></script>
+<script type="text/javascript" src="js/supersized.shutter.js"></script>
+<!-- supersized -->
+
+<!-- fancybox -->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<!-- fancybox -->
+
+<!-- quicksand -->
+<script type="text/javascript" src="js/portfolio_sortable.js"></script>
+<script type="text/javascript" src="js/quicksand.js"></script>
+<!-- quicksand -->
+
+<script type="text/javascript" src="js/jquery.carouFredSel-6.0.6.js"></script>
+
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript">
+<!--Redirect using user screen size -->
+<!--
+if (screen.width <= 699) {
+document.location = "m/index.html";
+}
+//-->
+</script>
+<!--Redirect using user agent-->
+<script type="text/javascript">
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1 || ua.indexOf("mobile") > -1 || ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1 || ua.indexOf("ipod") > -1  || ua.indexOf("symbian") > -1 || ua.indexOf("htc") > -1 || ua.indexOf("blackberry") > -1 || ua.indexOf("palm") > -1  || ua.indexOf("wp7") > -1|| ua.indexOf("Windows Phone 8.0") > -1|| ua.indexOf("Windows Phone") > -1|| ua.indexOf("MOBILE") > -1|| ua.indexOf("Mobile") > -1;
+if(isAndroid) {
+  // Do something!
+  // Redirect to mobile-site
+  window.location = 'm/index.html';
+}
+</script>
+            
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="page_wrapper">
+<div id="dvLoading"></div>
+<div id="bgOverlay"><a  href="#" class="page_close"><img src="images/close_button.png" alt="img" /></a></div>
+
+
+<!--Supersized Controls Start-->
+<div id="controls">
+    <ul>
+        <li><a id="prevslide" class="load-item"><img src="images/back.png" alt="img" /></a></li>
+        <li><a id="play-button"><img id="pauseplay" src="images/pause.png" alt="img"/></a></li>
+        <li><a id="nextslide" class="load-item"><img src="images/forward.png" alt="img" /></a></li>
+    </ul>
+</div>
+<div id="slidecaption_wrapper">
+    <div id="slidecaption"></div>
+</div>
+<!--Supersized Controls End-->
+
+
+<!--leftSide start --> 
+<div id="leftSide">
+    <div id="logo">
+        <h1>
+            <a href="index.html">
+                <img src="images/Makigo_logo_small.jpg" alt="logo" />
+            </a>
+        </h1>
+    </div>
+
+    <nav id="sidebarmenu">
+        <ul id="sidebarmenu1" class="menu">
+            <li><a href="#" onclick="window.location.href='http://gomakigo.com/'">Home</a></li>
+            <li><a href="#page_about">about</a></li>
+            <li><a href="#page_menu">Menu</a></li>
+            <!--<li><a href="#page_recipes">Recieps</a></li>
+            <li><a href="#page_gallery">Gallery</a></li>-->
+            <li><a href="#page_contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="social_media_wrapper"> 
+        <div class="social_media"> 
+            <ul>
+                <!--<li><a href="#" target="_blank"><img src="images/social_rss_icon1.png" alt="img" /></a></li> -->
+                <!--<li><a href="#"><img src="images/social_facebook_icon1.png" alt="img" /></a></li> -->
+                <!--<li><a href="#"><img src="images/social_skype_icon1.png" alt="img" /></a></li> -->
+                <li><a href="http://www.twitter.com/gomakigo"><img src="images/social_twitter_icon1.png" alt="img" /></a></li>
+            </ul>
+        </div>
+        <h5>Site Designed By <a href="http://www.typeserve.com" title="TypeServe Web Solutions">TypeServe Web Solutions</a>, Dublin OH, 2013</h5>
+    </div>
+</div>
+<!--leftside end --> 
+
+
+<!--Content Start-->
+<div class="contWrapper">
+<article id="content">
+
+<!--Welcome Content Start-->
+<div id="splash_page">
+    <h1><strong>MakiGo!</strong></h1>
+    <h2>Welcome to Downtown Columbus' first and only custom sushi bar!</h2>
+    <h3></h3>
+    <br>
+    <div class="contact_no">
+    </div>
+</div>
+<!--Welcome Content End-->
+
+<ul id="ulcontent">
+
+<!--About Us Start-->
+<li id="page_about">
+    <div class="title-wrapper">
+        <h2>About Us</h2>
+    </div>
+    <img src="images/FishandIngredient_small.jpg" alt="img" class="alignleft img_bor" />
+    <h4>Who says great sushi has to be expensive sushi?</h4>
+    <p>Who says you can't get great sushi fast? Why can't you ever just have 
+	exactly what you want? Well, here at maki go! we believe you can have great 
+	sushi, quickly, casually, and just the way you like it. From start to finish,
+	the options, endless... the flavors, fresh, healthy, and delicious.</p>
+    
+    <div class="v_space"></div>
+    
+    <div class="title-wrapper">
+        <h2>Back Home</h2>
+    </div>
+    <div class="two_third">
+        <img src="images/MenuBoard2_small.jpg" alt="img" class="alignleft img_bor" />
+        <p><strong>Born and raised in Columbus, this town has rightfully earned 
+		its stripes as a true foodie town. But after spending sometime in California,
+		Columbus seemed to be missing just one thing. Sushi that anyone, from newbie 
+		to sushi connoisseur, could go to enjoy that was affordable, fast, yet maintain 
+		the essence of old traditional preparations of the fish and rice. So, Maki Go!
+		was created to being a whole new experience to the sushi world. Where you, our 
+		guest, are essentially the chef, and we're just the hands that create it for you.</strong></p>
+    </div>
+    <div class="one_third_last">
+    </div>
+    
+    <div class="clear"></div>
+</li>
+<!--About Us End-->
+
+<!--Menu Start-->
+<li id="page_menu">
+    <div class="title-wrapper">
+        <h2>Our Menu is a <q>create your own sushi roll concept</q> concept!</h2>
+    </div>
+	
+    <div class="one_half">
+        <h5>Step 1</h5>
+        <ul class="list">
+            <li><a href="#">Choose from traditional seaweed or sesame soy paper.</a></li>
+            <li><a href="#">Sushi Rice or Seasoned Brown Rice</a></li>
+        </ul>
+    </div>
+    
+	<div class="one_half">
+        <h5>Then your choice of...</h5>
+        <ul class="list">
+            <li><a href="#">Fresh Tuna</a></li>
+            <li><a href="#">Fresh Salmon</a></li>
+            <li><a href="#">Homemade Crab Salad</a></li>
+            <li><a href="#">Honey Soy Chicken</a></li>
+            <li><a href="#">Marinated Steak</a></li>
+            <li><a href="#">Oven Roasted Tofu</a></li>
+        </ul>
+    </div>
+	
+    <div class="one_half">
+        <h5>Load up on fresh veggie and more...</h5>
+        <ul class="list">
+            <li><a href="#">Cucumber</a></li>
+            <li><a href="#">Avocado</a></li>
+            <li><a href="#">Romaine</a></li>
+            <li><a href="#">Spinach</a></li>
+            <li><a href="#">Carrots</a></li>
+            <li><a href="#">Green Onions</a></li>
+			<li><a href="#">Pico de Gallo</a></li>
+			<li><a href="#">Jalapeno Salsa</a></li>
+			<li><a href="#">Habanero &amp; Daikon Salsa</a></li>
+			<li><a href="#">Pickled Ginger and Carrots</a></li>
+			<li><a href="#">Cream Cheese</a></li>
+			<li><a href="#">Panko</a></li>
+        </ul>
+    </div>
+	
+    <div class="one_half">
+        <h5>Finish it up with our Homemade Sauces...</h5>
+        <ul class="list">
+            <li><a href="#">Spicy Mayo</a></li>
+            <li><a href="#">Maki Go! Sauce</a></li>
+            <li><a href="#">Wasabi Dressing</a></li>
+            <li><a href="#">Honey Soy Sauce</a></li>
+        </ul>
+    </div>
+    <img src="images/FreshIngredients_small.jpg" alt="menu bottom design" class="alignleft">
+</li>
+<!--Menu End-->
+
+<!--Recipes Start-->
+<li id="page_recipes">
+    <div class="title-wrapper">
+        <h2>Recieps</h2>
+    </div>
+    <div id="list_carousel">
+        <ul class="list_carousel">
+           <!-- <li>
+                <a href="images/MenuBoard.jpg" title="Image Description Goes Here" class="example6">
+                    <span class="roll"></span>
+                    <img src="images/recieps_img_1.jpg" alt="img" class="img_bor" />
+                </a>
+                <h4>Menu Board</h4>
+            </li>
+			-->
+            <li>
+                <a href="images/CloseupRoll.jpg" title="Image Description Goes Here" class="example6">
+                    <span class="roll"></span>
+                    <!--<img src="images/recieps_img_2.jpg" alt="img" class="img_bor" />-->
+                </a>
+                <h4>Roll</h4>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+        <div class="carousel_controls">
+            <a id="prev3" class="carousel_prev" href="#"><img src="images/carousel_prev.png" alt="img" /></a>
+            <a id="next3" class="carousel_next" href="#"><img src="images/carousel_next.png" alt="img" /></a>
+        </div>
+    </div>
+    
+    <div class="v_space"></div>
+    
+    <div class="title-wrapper">
+        <h2>Our Top Recieps List</h2>
+    </div>
+    <div class="one_half">
+        <ul class="list">
+            <li><a href="#">Chopped Chicken Salad<span>$14.65</span></a></li>
+            <li><a href="#">Garden Fresh Side Salad<span>$07.20</span></a></li>
+            <li><a href="#">Chicken Salad<span>$10.25</span></a></li>
+            <li><a href="#">Fruit Mixed Salad<span>$14.65</span></a></li>
+            <li><a href="#">Seasoned Cut Fruit Salads<span>$07.20</span></a></li>
+            <li><a href="#">Fresh Carrot Salad<span>$10.25</span></a></li>
+        </ul>
+    </div>
+    
+    <div class="one_half_last">
+        <ul class="list">
+            <li><a href="#">Chopped Chicken Salad<span>$14.65</span></a></li>
+            <li><a href="#">Garden Fresh Side Salad<span>$07.20</span></a></li>
+            <li><a href="#">Chicken Salad<span>$10.25</span></a></li>
+            <li><a href="#">Fruit Mixed Salad<span>$14.65</span></a></li>
+            <li><a href="#">Seasoned Cut Fruit Salads<span>$07.20</span></a></li>
+            <li><a href="#">Fresh Carrot Salad<span>$10.25</span></a></li>
+        </ul>
+    </div>
+</li> 
+<!--Recipes End-->
+
+<!--Gallery Start-->
+<li id="page_gallery">
+    <div class="title-wrapper">
+        <h2>Gallery</h2>
+    </div>
+    <div>
+    <ul class="splitter" id="filter">
+        <li>
+        <ul>
+            <li class="segment-1 selected-1"><a href="#" data-value="all">All</a></li>
+            <li class="segment-0"><a href="#" data-value="non_veg">Non Veg</a></li>
+            <li class="segment-2"><a href="#" data-value="veg">Veg</a></li>
+            <li class="segment-3"><a href="#" data-value="drinks">Drinks</a></li>
+        </ul>
+        </li>
+    </ul>
+    </div>
+    <div class="image_grid">
+        <ul id="list" class="portfolio_list">
+            <li data-id="id-1" class="non_veg">
+                <a href="images/MenuBoard.jpg" title="Image Description Goes Here" class="example6">
+                    <span class="roll"></span>
+                    <!--<img src="images/gallery_img_1.jpg" alt="img" class="img_bor" />-->
+                </a>
+            </li>
+            <li data-id="id-2" class="non_veg">
+                <a href="images/CloseupRoll.jpg" title="Image Description Goes Here" class="example6">
+                    <span class="roll"></span>
+                    <!--<img src="images/gallery_img_2.jpg" alt="img" class="img_bor" />-->
+                </a>
+            </li>
+        </ul>
+    </div>    
+</li>
+<!--Gallery End-->
+
+<!--Contact Start-->
+<li id="page_contact">
+    <div class="one_half">
+        <div class="title-wrapper">
+	        <h2>Hours of Operation</h2>
+        </div>
+        <ul class="working_hr">
+            <li>
+                <span class="day">Monday &#8212; Friday</span>
+                <span class="timming">11:30 AM &#8212; 5:00 PM</span>
+            </li>
+            <li>
+                <span class="day">Saturday </span>
+                <span class="timming">Closed</span>
+            </li>
+            <li>
+                <span class="day">Sunday</span>
+                <span class="timming">Closed</span>
+            </li>
+        </ul>
+    </div>
+    <div class="one_half_last">
+        <div class="title-wrapper">
+	        <h2>Contact</h2>
+        </div>
+        <div class="thumb_img">
+    	    <img src="images/address_icon.png" alt="img" />
+        </div>
+        <div class="description info">
+            <p>
+            12 East Broad St<br>
+            Columbus, OH 43215<br>
+        </p>
+    	</div>
+        <div class="thumb_img">
+	        <img src="images/phone_icon.png" alt="img" />
+        </div>
+        <div class="description info">
+            <p>
+            Phone: 614-732-5451 <br>
+            </p>
+        </div>
+        <div class="thumb_img">
+	        <!--<img src="images/mail_icon.png" alt="img" />-->
+        </div>
+        <div class="description">
+            <p>
+            </p>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    <div class="v_space"></div>
+    
+    <div class="title-wrapper">
+        <h2>Contact Form</h2>
+    </div>
+    <div class="contact_form">
+        <form method="post" action="sendEmail.php" name="contact-form" id="contact-form">	
+        <div id="main">
+            <div id="response"></div>
+            <div class="one_third">
+                <label>Name:</label>
+                <p><input type="text" name="name" id="name" size="30" /></p>
+            </div>
+            <div class="one_third">
+                <label>Email:</label>
+                <p><input type="text" name="email" id="email" size="30" /></p>
+            </div>
+            <div class="one_third_last">
+                <label>Subject:</label>
+                <p><input type="text" name="subject" id="subject" size="30" /></p>
+            </div>
+            <label>Message:</label>
+            <p><textarea name="message" id="message" cols="30" rows="10"></textarea></p>
+            <p><input  class="contact_button button" type="submit" name="submit" id="submit" value="Email Us!" /></p>
+        </div>
+        </form>
+    </div> 
+</li>
+<!--Contact End-->
+                   
+</ul>
+</article>
+</div>
+<!--Content End-->
+
+</div>
+<!--Page wrapper End-->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.gomakigo.com"]);
+  _paq.push(["setDomains", ["*.gomakigo.com"]]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://typeserve.com/2analytics/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "19"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+</body>
+</html>
